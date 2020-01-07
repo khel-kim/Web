@@ -113,11 +113,13 @@ URI(Uniform Resource Identifier)란 요청하는 주소가 실제 존재하는 �
 
 ### Flask를 이용한 기본적인 REST API 구현
 
-REST API를 구축하기 위해서는 데이터를 json 형식으로 리턴해야한다. Flask는 데이터를 json 형식으로 치환하기 위한 jsonify라는 함수를 제공하고 있다.
+REST API를 구축하기 위해서는 데이터를 json 형식으로 리턴해야한다. 그리고 요청이 들어왔을 때,  HTTP 메소드 별로 실행 루틴을 다르게 구현할 수 있다. 
 
-또한 요청이 들어왔을 때,  HTTP 메소드 별로 실행 루틴을 다르게 구현할 수 있다. 또한 json 형태의 데이터를 받아오기위하여 Flask내에 request라는 클래스를 사용한다.
+### 실습
 
+코드 사이트: https://niceman.tistory.com/101
 
+2020.01.07
 
 ## Flask tf serving
 
