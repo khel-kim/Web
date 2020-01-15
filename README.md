@@ -97,8 +97,6 @@ if __name__ == '__main__':
 2. html에서 if 문, for 문, 바로 계산 어떻게 하는지 알기
 3. url 정의 => 함수 정의 => html 정의 => action 함수 정의 => html 정의
 
-### Flask에서 MongoDB에 연결하여 데이터를 사용하기
-
 
 
 ## Flask를 이용하여 REST API 만들기
