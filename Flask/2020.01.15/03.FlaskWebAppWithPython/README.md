@@ -62,7 +62,7 @@ URL Routing을 통해 URL들을 외우기 쉽게 만들 수 있다. 우리는 �
 Flask 애플리케이션의 URL과 포트를 바꿔보자.
 
 ```python
-# app.py
+# hello.py
 from flask import Flask, render_template
 app = Flask(__name__)
 
