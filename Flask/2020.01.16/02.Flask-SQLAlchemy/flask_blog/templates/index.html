@@ -1,0 +1,7 @@
+{% for post in posts %}
+<h1> {{ post.title }}</h1>
+<p> {{ post.content }}</p>
+<p> {{ post.author.username }}</p>
+<img src="{{ url_for('static', filename='profile_imgs/' + post.author.profile_image) }}" alt="No image">
+<p> {{ post.date_posted.strftime('%Y-%m-%d') }}</p>
+{% endfor %}
